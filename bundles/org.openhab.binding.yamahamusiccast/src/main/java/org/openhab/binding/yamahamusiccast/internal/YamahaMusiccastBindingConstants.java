@@ -41,6 +41,8 @@ public class YamahaMusiccastBindingConstants {
     public static final ChannelTypeUID CHANNEL_TYPE_UID_INPUT = new ChannelTypeUID(BINDING_ID, "input");
     public static final ChannelTypeUID CHANNEL_TYPE_UID_SOUNDPROGRAM = new ChannelTypeUID(BINDING_ID, "soundProgram");
     public static final ChannelTypeUID CHANNEL_TYPE_UID_SELECTPRESET = new ChannelTypeUID(BINDING_ID, "selectPreset");
+    public static final ChannelTypeUID CHANNEL_TYPE_UID_SELECTPRESET_DAB = new ChannelTypeUID(BINDING_ID,
+            "selectPresetDAB");
     public static final ChannelTypeUID CHANNEL_TYPE_UID_SLEEP = new ChannelTypeUID(BINDING_ID, "sleep");
     public static final ChannelTypeUID CHANNEL_TYPE_UID_RECALLSCENE = new ChannelTypeUID(BINDING_ID, "recallScene");
     public static final ChannelTypeUID CHANNEL_TYPE_UID_MCLINKSTATUS = new ChannelTypeUID(BINDING_ID, "mclinkStatus");
@@ -54,6 +56,7 @@ public class YamahaMusiccastBindingConstants {
     public static final String CHANNEL_INPUT = "input";
     public static final String CHANNEL_SOUNDPROGRAM = "soundProgram";
     public static final String CHANNEL_SELECTPRESET = "selectPreset";
+    public static final String CHANNEL_SELECTPRESET_DAB = "selectPresetDAB";
     public static final String CHANNEL_PLAYER = "player";
     public static final String CHANNEL_SLEEP = "sleep";
     public static final String CHANNEL_RECALLSCENE = "recallScene";
